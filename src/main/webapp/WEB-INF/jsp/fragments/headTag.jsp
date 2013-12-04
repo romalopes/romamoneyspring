@@ -1,19 +1,19 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <!--
-PetClinic :: a Spring Framework demonstration
+Roma Money Spring
 -->
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>PetClinic :: a Spring Framework demonstration</title>
+    <title>Roma Money Spring</title>
 
 
     <spring:url value="/webjars/bootstrap/2.3.0/css/bootstrap.min.css" var="bootstrapCss"/>
     <link href="${bootstrapCss}" rel="stylesheet"/>
 
-    <spring:url value="/resources/css/petclinic.css" var="petclinicCss"/>
-    <link href="${petclinicCss}" rel="stylesheet"/>
+    <spring:url value="/resources/css/romamoneyspring.css" var="romamoneyspringCss"/>
+    <link href="${romamoneyspringCss}" rel="stylesheet"/>
 
     <spring:url value="/webjars/jquery/1.9.0/jquery.js" var="jQuery"/>
     <script src="${jQuery}"></script>
