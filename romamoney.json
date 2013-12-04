@@ -1,14 +1,14 @@
 {
-    "id": "spring-petclinic-clickstart",
-    "name": "Spring PetClinic App",
+    "id": "romamoney",
+    "name": "Roma Money Spring App",
     "source": "github",
-    "description" : "Spring PetClinic App deployed on Tomcat7 via Jenkins with maven",
-    "doc-url" : "https://github.com/CloudBees-community/spring-petclinic-clickstart/blob/master/readme.md",
-    "icon" : "https://raw.github.com/CloudBees-community/spring-petclinic-clickstart/master/clickstart-icon.png",
+    "description" : "Roma Money Spring",
+    "doc-url" : "https://github.com/romalopes/romamoneyspring/readme.md",
+    "icon" : "https://raw.github.com/romalopes/romamoneyspring/master/romamoney-icon.png",
 
     "disabled" : false,
     "supported-by" : "community",
-    "app-package" : "https://examples.ci.cloudbees.com/job/clickstart/job/spring-petclinic-clickstart/lastSuccessfulBuild/artifact/target/petclinic.war",
+    "app-package" : "",
     "order" : 3,
    
     "runtime": {
@@ -24,7 +24,7 @@
     "databases": [
         {
             "type": "mysql",
-            "alias": "petclinic"
+            "alias": "romamoneyspring"
         }
     ],
     "build-with-jenkins": {

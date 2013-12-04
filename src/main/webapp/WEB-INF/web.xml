@@ -5,8 +5,8 @@
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          id="WebApp_ID" version="2.5">
 
-    <display-name>Spring PetClinic</display-name>
-    <description>Spring PetClinic sample application</description>
+    <display-name>Roma Money Spring</display-name>
+    <description>Roma Money Spring application</description>
 
    <!-- Default profile is "jpa" (see business-config.xml for more details). 
    When using Spring JDBC, uncomment the following: -->
@@ -40,7 +40,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 - Servlet that dispatches request to registered handlers (Controller implementations).
 -->
     <servlet>
-        <servlet-name>petclinic</servlet-name>
+        <servlet-name>romamoneyspring</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
@@ -50,7 +50,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>petclinic</servlet-name>
+        <servlet-name>romamoneyspring</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
@@ -76,7 +76,7 @@ see here: http://static.springsource.org/spring/docs/current/spring-framework-re
 
     <filter-mapping>
         <filter-name>httpMethodFilter</filter-name>
-        <servlet-name>petclinic</servlet-name>
+        <servlet-name>romamoneyspring</servlet-name>
     </filter-mapping>
     
     <!-- used to provide the ability to enter Chinese characters inside the Owner Form -->    
